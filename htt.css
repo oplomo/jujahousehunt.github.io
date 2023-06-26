@@ -1,0 +1,39 @@
+
+div>*{border:  1.5px black solid;}
+body{background-color: rgb(116, 214, 78);}
+.all{display: grid; grid-template-rows: .3fr 2fr .4fr; width: 80%; margin: 0 auto;}
+
+
+.head{margin-bottom: 20px; display: flex; justify-items: left; flex-direction: row; justify-content: right;}
+
+.hm{margin: 5px;}
+.acc{margin: 5px;}
+.use{margin: 5px;}
+.cont{margin: 5px;}
+
+.midl{display: grid; grid-template-columns: 1fr 2fr;}
+.lft{margin: 5px; display: grid; grid-template-rows: 2fr 1fr;}
+.top{margin: 5px}
+.btm{margin: 5px}
+.right{margin: 5px; background-image: url(scape7.jpg); height: 400px; background-size: cover;}
+
+
+
+.foot{margin-top: 20px; display: flex; justify-content: space-around;}
+.ins{margin: 5px}
+.fit{margin: 5px}
+.member{margin: 5px}
+.con{margin: 5px}
+
+
+.right{animation: bel 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s infinite;}
+@keyframes bel{
+20%{background-image: url(InShot_20230209_101213083.jpg);height: 400px; background-size: cover;}
+40%{background-image: url(InShot_20230209_101149890.jpg);height: 400px; background-size: cover;}
+60%{background-image: url(InShot_20230209_101443740.jpg);height: 400px; background-size: cover;}
+80%{background-image: url(InShot_20230209_101318413.jpg);height: 400px; background-size: cover;}
+100%{background-image: url(InShot_20230209_101503403.jpg);height: 400px; background-size: cover;}
+
+}
+
+

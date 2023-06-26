@@ -1,0 +1,230 @@
+body{box-sizing: border-box; margin:  10px 20px 0px 20px; background-color: black; }
+/*div{bordyer: 1px solid springgreen;}this will put all the elements in their respective boxes*/
+.first{height: auto; font-weight: 800; font-size: 2.5em; text-align: center; color: chartreuse; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-bottom: 10px; text-transform: uppercase;}
+.topb{text-align: center; margin-bottom: 20px; color: aliceblue;}
+.header{ position: relative; height: auto; margin-bottom: 100px;}
+.hld{margin: 20px;}
+.imlink{margin-right: 2px;}
+.content{display: grid; grid-template-columns: repeat(4, 1fr);
+         grid-template-rows: 1fr repeat(p, 1fr);
+}
+
+.footer{margin-top: 0px; background-image: url(footer.jpg); height: auto; width: 100%; background-size: cover; background-position: 100%; background-repeat: no-repeat; color: white;}
+.title{text-align: center; padding: 10px; height: auto; color: aliceblue;}
+.name{padding: 10px 0px; margin: 1px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 1000;}
+.b2{position: absolute; top: 5px; right: 5px; color: black; width: 200px; height: 100px; background-color: white; padding: 10px;}
+.b1{position: absolute; top: 5px; left: 5px; color: black; width: 200px; height: 100px; background-color: white; padding: 10px;}
+section{border: 2px red;}
+.mon{ font-size: 1.3em; color: gold;}
+.imlink:hover{opacity: .5;}
+
+
+img{width: 350px; height: 250px; margin: 10px;}
+
+.desc{line-height: 2em; padding: 15px; text-align: left; color: orangered;}
+.inf{display: flex; justify-content: space-around;}
+.footer> *{margin: 20px; font-weight: 900; text-align: center;}
+ div> a:hover{font-size: large; color: #88eb07; text-decoration: none;}
+ button> a:hover{font-size: large; color: indianred; text-decoration: none;}
+ button{border-radius: 10px; border: 0px;}
+ div> a{color: fuchsia;}
+.inf> a{color: white; text-decoration: none;}
+.inf> a:hover{font-size: large; color: white;}
+
+.delis{animation: show 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes show{
+    0%{width: 350px; height: 250px; background-image: url(InShot_20230209_101149890.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(InShot_20230209_101213083.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(scape7.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(InShot_20230209_101519767.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(InShot_20230209_101416455.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(InShot_20230209_101355058.jpg); background-size: cover; background-position: 100%;}
+}
+
+.apa{animation: sho 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes sho{
+    0%{width: 350px; height: 250px; background-image: url(apa.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(apa2.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(apa1.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(apa7.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(apa5.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(apa6.jpg); background-size: cover; background-position: 100%;}
+}
+
+.exe{animation: exe 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes exe{
+    0%{width: 350px; height: 250px; background-image: url(exe.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(exe1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(exe2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(exe6.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(exe7.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(exe5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.ei{animation: eis 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes eis{
+    0%{width: 350px; height: 250px; background-image: url(ei.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(ei1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(ei2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(ei3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(ei4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(ei5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.cic{animation: cic 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes cic{
+    0%{width: 350px; height: 250px; background-image: url(cic.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(cic1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(cic2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(cic3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(cic4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(cic5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.del{animation: del 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes del{
+    0%{width: 350px; height: 250px; background-image: url(del.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(del1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(del2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(del3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(del4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(del5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.qwn{animation: qwn 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes qwn{
+    0%{width: 350px; height: 250px; background-image: url(qwn.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(qwn1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(qwn2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(qwn3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(qwn4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(qwn7.jpg); background-size: cover; background-position: 100%;}
+}
+
+.ros{animation: ros 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes ros{
+    0%{width: 350px; height: 250px; background-image: url(ros.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(ros1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(ros2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(ros3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(ros4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(ros5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.ryn{animation: ryn 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes ryn{
+    0%{width: 350px; height: 250px; background-image: url(ryn.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(ryn7.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(ryn6.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(ryn5.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(ryn4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(ryn3.jpg); background-size: cover; background-position: 100%;}
+}
+
+.stan{animation: stan 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes stan{
+    0%{width: 350px; height: 250px; background-image: url(stan.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(stan1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(stan3.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(stan2.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(stan5.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(stan7.jpg); background-size: cover; background-position: 100%;}
+}
+
+.ste{animation: ste 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes ste{
+    0%{width: 350px; height: 250px; background-image: url(ste.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(ste2.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(ste4.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(ste6.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(ste1.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(ste3.jpg); background-size: cover; background-position: 100%;}
+}
+
+.thi{animation: thi 18s cubic-bezier(0.25, 0.46, 0.45, 0.94)  infinite;}
+
+@keyframes thi{
+    0%{width: 350px; height: 250px; background-image: url(thi.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(thi1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(thi2.jpg); background-size: cover; background-position: 100%;}
+    80%{width: 350px; height: 250px; background-image: url(thi3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(thi4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(thi5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.wk{animation: wk 18s  cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;}
+
+@keyframes wk{
+    0%{width: 350px; height: 250px; background-image: url(wk.jpg); background-size: cover; background-position: 100%;}
+    60%{width: 350px; height: 250px; background-image: url(wk1.jpg); background-size: cover; background-position: 100%;}
+    70%{width: 350px; height: 250px; background-image: url(wk2.jpg); background-size: cover; background-position: bottom;}
+    80%{width: 350px; height: 250px; background-image: url(wk3.jpg); background-size: cover; background-position: 100%;}
+    90%{width: 350px; height: 250px; background-image: url(wk4.jpg); background-size: cover; background-position: 100%;}
+    100%{width: 350px; height: 250px; background-image: url(wk5.jpg); background-size: cover; background-position: 100%;}
+}
+
+.offer{animation: offer 5s ease-in 5s infinite;}
+
+@keyframes offer{
+    0%{ color: blue; background-color: blueviolet;}
+    10%{color: lime; background-color: black;}
+    20%{color: rosybrown; background-color: azure;}
+    30%{color: darkgreen; background-color: yellow;}
+    40%{color: maroon; background-color: white;}
+    50%{color: purple; background-color: dimgray;}
+    60%{color: red; background-color: bisque;}
+    70%{color: black; background-color: white;}
+    80%{color: turquoise; background-color: darkslategray;}
+    90%{color: chocolate; background-color: black;}
+    100%{color: crimson; background-color: lightyellow;}
+
+}
+
+
+@media screen and (max-width: 550px) {
+    body{background-color: black; color: chartreuse;}
+    .title{display: none;}
+.content{display: flex; flex-direction: column;}
+.offer{position: relative;}
+.header{margin: 50px;}
+.first{background-color: white; color: red;}
+.b2{display: none;}
+.header{margin-bottom: 5px;}
+.imlink{width: ;}
+}
+@media screen and (max-width: 770px) and (min-width: 550.1px){
+   /* body{background-color: blueviolet;}*/
+    .title{display: none;}
+    .content{display: grid; grid-template-columns: repeat(2, 1fr);}
+.offer{position: absolute; margin: 0 auto; top: 50px;}
+   .bt2{display: none;}
+   .header{margin-bottom: 120px; position: relative;}
+   }
+   
+   @media screen and (max-width: 1199px) and (min-width: 770.1px){
+    /* body{background-color: rosybrown;}*/
+     .title{display: none;}
+     .content{display: grid; grid-template-columns: repeat(2, 1fr);}
+ .offer{position: absolute; margin: 0 auto; top: 50px;}
+    .bt2{display: none;}
+    .header{margin-bottom: 120px; position: relative;}
+    
+    }
+    
+   
+   @media screen and (min-width: 1450px){
+     body{display: flex; flex-direction: column; max-width: 1000px; flex-wrap: wrap; max-width: 1450px;}
+   }
+   
+     
